@@ -4,6 +4,13 @@
   "main": "src/index.js",
   "repository": "git@github.com:deldreth/graphql-primer-server-initial.git",
   "author": "Devin Eldreth <devin.eldreth@gmail.com>",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "deploy": "prisma deploy",
+    "dockerize": "docker-compose -f database/docker-compose.yml up -d",
+    "get-schema": "graphql get-schema --project database",
+    "precommit": "pretty-quick --staged"
+  },
   "license": "MIT",
   "devDependencies": {
     "graphql-cli": "^2.16.7",
