@@ -1,8 +1,8 @@
 {
-  "name": "graphql-primer-adopt-cats-initial",
+  "name": "graphql-primer-server-initial",
   "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:deldreth/graphql-primer-adopt-cats-initial.git",
+  "main": "src/index.js",
+  "repository": "git@github.com:deldreth/graphql-primer-server-initial.git",
   "author": "Devin Eldreth <devin.eldreth@gmail.com>",
   "license": "MIT",
   "devDependencies": {
